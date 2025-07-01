@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <!-- SETUP -->
+    <meta charset="UTF-8">
+    <title>Beani's Website</title>
+    <link rel="icon" href="/icon.ico">
+    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+
+    <!-- RANDOM IMAGE/TEXT -->
+    <script>
+      const textSelect= [
+        '"Everybody will be a star! (If you always eat greedily.)"',
+        '"Don&apos;t cut the rhythm of the heart!"',
+        '"Speaking of &apos;spreading wings into a shining future&apos; even still..."',
+        '"Today&apos;s lunch is..."',
+        '"I sit and think, under the distant sky..."',
+        '"I wish I can fly in the sky, angels call you very kindly."',
+        '"The fleeting seasons lingers... Glossing the tears too."',
+        '"You say I&apos;m strange? What are you joking about!"',
+        '"// Let the world begin."',
+        '"Thousands of cherry trees dissolve into the night."',
+        '"Screaming deep scarlet into this entangled heart..."',
+        '"Crimson flowers are blooming everywhere."',
+        '"Collecting the dreams I threw away..."',
+        '"Now, am I happy? I&apos;m not really sure if I am or not."',
+        '"I&apos;ll set off on a journey, taking a ride on the local train."',
+      ];
+      function getRandomText() {
+          const randomIndex = Math.floor(Math.random() * textSelect.length);
+          return textSelect[randomIndex];
+        }
+      function loadText() {
+        const content = document.getElementById('random-text');
+        content.innerHTML= getRandomText();
+      }
+ 
+      var image = new Array("images/shimeji1.gif", "images/shimeji2.gif", "images/shimeji3.gif",)
+      function loadImage() {
+          var randomNum = Math.floor(Math.random() * image.length);
+          document.getElementById("shimeji").src = image[randomNum];
+      }
+
+      function onloadFunctions() {
+        loadText(); 
+        loadImage();
+      }
+      window.onload = onloadFunctions;
+    </script>
+
+    <!-- WEBSITE CONTENT -->
+    <div class="headerparent">
+      <div class="header1">
+        <img src="images/logo.png" alt="Logo" style="margin-top: 10px; margin-left: -5px;">
+        <p class="center" style="margin-top: 8px;">Beani's Website</p>
+        <p></p>
+      </div>
+
+      <div class="header2">
+        <img id="shimeji" alt="Shimeji" style="position: absolute; top: 12px; right: 0px;">
+        <p id="random-text" class="smallfont" style="margin-top: 48px; margin-left: -4px;"></p>
+      </div>
+    </div>
+
+    <div class="pageparent">
+      <div class="page1">
+        <p style="margin-top: -2px;">Credits/Licenses: (WIP)</p>
+        <p></p>
+      </div>
+
+      <div class="page2">
+        <p><b>This page is for the licensing of content on this website, and-
+        <br>-credits for everything used on this website.</b></p><hr>
+
+        <p><b>BeaniCraft Music License:</b></p><hr>
+        <p class="smallfont">This license only applies to my original music.
+        <br>Covers generally aren't under this license, so you can't use them.*<br>
+        <br><span style="color: #bebcbc;"><b>*You can use them if you get prior permission from the original artist,- 
+        <br>-but this license still applies.</b></span>
+        </p><hr>
+
+        <p class="smallfont"><b>Preamble:</b></p><hr>
+        <p class="smallfont">
+        </p><hr>
+        
+        <details>
+          <summary style="color: #183bff"><span class="summary"><b>required</b></span></summary>
+          <p class="smallfont">TEST</p>
+        </details>
+
+        <details>
+          <summary style="color: #5ab400"><span class="summary"><b>allowed</b></span></summary>
+          <p class="smallfont">TEST</p>
+        </details>
+
+        <details>
+          <summary style="color: #e9b816"><span class="summary"><b>partially-allowed</b></span></summary>
+          <p class="smallfont">TEST</p>
+        </details>
+
+        <details>
+          <summary style="color: #b30000;"><span class="summary"><b>not-allowed</b></span></summary>
+          <p class="smallfont">TEST</p>
+        </details>
+
+        <hr>
+        
+        <p><b>BeaniCraft Website License:</b></p>
+        <p class="smallfont"></p><hr>
+        
+
+        <p><b>Credits:</b></p>
+        <p class="smallfont"></p><hr>
+
+        <p href="credits-licenses.html#:~:text=BeaniCraft%20Music%20License:">TEST</p>
+      </div>
+    </div>
+
+    <div class="footerparent">
+      <div class="footer">
+        <p class="center">BeaniCraft | 2025</p>
+      </div>
+    </div>
+
+    <div class="sidenavparent">
+      <div class="sidenav1">
+        <p class="center">Navigation:</p>
+          <a href="index.html"><img src="/images/menubars/home.png" alt="Home" class="smallfont imagehover" style="margin-top: -8px;"></a>
+          <a href="interests.html"><img src="/images/menubars/interests.png" alt="Interests" class="smallfont imagehover"></a>
+          <a href="thetaikodojo.html"><img src="/images/menubars/thetaikodojo.png" alt="The Taiko Dojo" class="smallfont imagehover"></a>
+          <a href="youtube-channel.html"><img src="/images/menubars/youtube-channel.png" alt="Youtube Channel" class="smallfont imagehover"></a>
+          <a href="music.html"><img src="/images/menubars/music.png" alt="Music" class="smallfont imagehover"></a>
+          <a href="opentaiko-charts.html"><img src="/images/menubars/opentaiko-charts.png" alt="OpenTaiko Charts" class="smallfont imagehover"></a>
+          <a href="credits-licenses.html"><img src="/images/menubars/credits-licenses.png" alt="Credits/Licenses" class="smallfont imagehover select"></a>
+          <a href="contact-affiliate.html"><img src="/images/menubars/contact-affiliate.png" alt="Contact/Affiliate" class="smallfont imagehover"></a>
+      </div>
+
+      <div class="sidenav2">
+        <p class="center">Affiliates:</p>
+        <a href="see-affiliates.html"><img src="/images/menubars/see-affiliates.png" alt="See Affiliates" class="smallfont imagehover" style="margin-top: -8px;"></a>
+      </div>
+    </div>
+  </body>
+</html>

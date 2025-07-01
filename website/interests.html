@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <!-- SETUP -->
+    <meta charset="UTF-8">
+    <title>Beani's Website</title>
+    <link rel="icon" href="/icon.ico">
+    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+
+    <!-- RANDOM IMAGE/TEXT -->
+    <script>
+      const textSelect= [
+        '"Everybody will be a star! (If you always eat greedily.)"',
+        '"Don&apos;t cut the rhythm of the heart!"',
+        '"Speaking of &apos;spreading wings into a shining future&apos; even still..."',
+        '"Today&apos;s lunch is..."',
+        '"I sit and think, under the distant sky..."',
+        '"I wish I can fly in the sky, angels call you very kindly."',
+        '"The fleeting seasons lingers... Glossing the tears too."',
+        '"You say I&apos;m strange? What are you joking about!"',
+        '"// Let the world begin."',
+        '"Thousands of cherry trees dissolve into the night."',
+        '"Screaming deep scarlet into this entangled heart..."',
+        '"Crimson flowers are blooming everywhere."',
+        '"Collecting the dreams I threw away..."',
+        '"Now, am I happy? I&apos;m not really sure if I am or not."',
+        '"I&apos;ll set off on a journey, taking a ride on the local train."',
+      ];
+      function getRandomText() {
+          const randomIndex = Math.floor(Math.random() * textSelect.length);
+          return textSelect[randomIndex];
+        }
+      function loadText() {
+        const content = document.getElementById('random-text');
+        content.innerHTML= getRandomText();
+      }
+ 
+      var image = new Array("images/shimeji1.gif", "images/shimeji2.gif", "images/shimeji3.gif",)
+      function loadImage() {
+          var randomNum = Math.floor(Math.random() * image.length);
+          document.getElementById("shimeji").src = image[randomNum];
+      }
+
+      function onloadFunctions() {
+        loadText(); 
+        loadImage();
+      }
+      window.onload = onloadFunctions;
+    </script>
+
+    <!-- WEBSITE CONTENT -->
+    <div class="headerparent">
+      <div class="header1">
+        <img src="images/logo.png" alt="Logo" style="margin-top: 10px; margin-left: -5px;">
+        <p class="center" style="margin-top: 8px;">Beani's Website</p>
+        <p></p>
+      </div>
+
+      <div class="header2">
+        <img id="shimeji" alt="Shimeji" style="position: absolute; top: 12px; right: 0px;">
+        <p id="random-text" class="smallfont" style="margin-top: 48px; margin-left: -4px;"></p>
+      </div>
+    </div>
+
+    <div class="pageparent">
+      <div class="page1">
+        <p style="margin-top: -2px;">Interests:</p>
+        <p></p>
+      </div>
+
+      <div class="page2">
+        <p><b>Interests...</b> I have a lot of them.</p><hr>
+        <p class="smallfont">To start, <ul class="smallfont"><li>I like to make <a href="music.html">music</a> every once and a while with LMMS.</li></ul>
+        <p class="smallfont"><ul class="smallfont"><li>I like to play rhythm games, mainly Taiko no Tatsujin, and OpenTaiko.</li></ul>
+        <p class="smallfont">I also have a lot of projects related to TnT and OpenTaiko, such as:</p>
+          
+          <ul class="smallfont" style="margin-left: 0px; list-style-type: circle;">
+            <li><a href="thetaikodojo.html">The Taiko Dojo.</a></li>
+            <li><a href="opentaiko-charts.html">Charts</a> for OpenTaiko.</li>
+            <li>Multiple ideas for YouTube videos.</li>
+            <li>And a whole lot more.</li>
+          </ul>
+        
+        <p class="smallfont"><ul class="smallfont"><li>I occasionally read manga, mainly Noragami, and Spy x Family.</li></ul>
+        <p class="smallfont">BTW, if you're curious, my favourite manga that I've read so far is Noragami.
+        <span style="color: #bebcbc;"><b>(Although it was the first manga that I ever read, so I may be biased.)</b></span>
+        <ul class="smallfont"><li>I listen to some vocaloid songs.</li></ul><p class="smallfont">Here's a few artists I listen to:</p>
+        
+          <ul class="smallfont" style="margin-left: 0px; list-style-type: circle;">
+            <li><a href="https://www.youtube.com/@inabakumori">inabakumori.</a></li>
+            <li><a href="https://www.youtube.com/@MARETUch">MARETU.</a></li>
+            <li><a href="https://www.youtube.com/@NAKISO">NAKISO.</a></li>
+            <li><a href="https://youtube.com/@kairikibear">Kairiki bear.</a></li>
+            <li>And <a href="https://siinamota.com/en/home">siinamota.</a> <span style="color: #bebcbc;"><b>(Rest in peace. o7)</b></span></li>
+          </ul>
+        
+        <p class="smallfont"><ul class="smallfont"><li>I make stuff with RPG Maker 2003, VX Ace, and MV infrequently.</li></ul>
+        <p class="smallfont"><span style="color: #bebcbc;"><b>(I mostly just mess around with the engines though.)</b></span><br>
+        <br>And lastly, <ul class="smallfont"><li>I have a <a href="youtube-channel.html">YouTube channel</a> which I use for random stuff.</li></ul></p>
+      </div>
+    </div>
+
+    <div class="footerparent">
+      <div class="footer">
+        <p class="center">BeaniCraft | 2025</p>
+      </div>
+    </div>
+
+    <div class="sidenavparent">
+      <div class="sidenav1">
+        <p class="center">Navigation:</p>
+          <a href="index.html"><img src="/images/menubars/home.png" alt="Home" class="smallfont imagehover" style="margin-top: -8px;"></a>
+          <a href="interests.html"><img src="/images/menubars/interests.png" alt="Interests" class="smallfont imagehover select"></a>
+          <a href="thetaikodojo.html"><img src="/images/menubars/thetaikodojo.png" alt="The Taiko Dojo" class="smallfont imagehover"></a>
+          <a href="youtube-channel.html"><img src="/images/menubars/youtube-channel.png" alt="Youtube Channel" class="smallfont imagehover"></a>
+          <a href="music.html"><img src="/images/menubars/music.png" alt="Music" class="smallfont imagehover"></a>
+          <a href="opentaiko-charts.html"><img src="/images/menubars/opentaiko-charts.png" alt="OpenTaiko Charts" class="smallfont imagehover"></a>
+          <a href="credits-licenses.html"><img src="/images/menubars/credits-licenses.png" alt="Credits/Licenses" class="smallfont imagehover"></a>
+          <a href="contact-affiliate.html"><img src="/images/menubars/contact-affiliate.png" alt="Contact/Affiliate" class="smallfont imagehover"></a>
+      </div>
+
+      <div class="sidenav2">
+        <p class="center">Affiliates:</p>
+        <a href="see-affiliates.html"><img src="/images/menubars/see-affiliates.png" alt="See Affiliates" class="smallfont imagehover" style="margin-top: -8px;"></a>
+      </div>
+    </div>
+  </body>
+</html>
