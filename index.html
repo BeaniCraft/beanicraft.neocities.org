@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <title id="tab-title">Home | Beani's Website</title>
+      <link rel="icon" href="/images/nav-image/home.png">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="BeaniCraft's personal website.">
+      <meta name="author" content="BeaniCraft">
+      
+      <meta property="og:title" content="Beani's Website">
+      <meta property="og:description" content="BeaniCraft's personal website.">
+      <meta property="og:type" content="website">
+      <meta property="og:url" content="https://beanicraft.neocities.org/">
+      <meta property="og:image" content="https://beanicraft.neocities.org/">
+        
+      <link href="/index-dark.css" rel="stylesheet" type="text/css" media="all">
+      
+      <script src="/index.js"></script>
+  </head>
+  
+  <body>
+    <div>
+      <!-- Header -->
+      <header class="main-header header-grid">
+        <section class="card header-1">
+          <div class="logo center">
+            <img src="/images/logo.png" alt="Logo">
+            <h3>Beani's Website</h3>
+          </div>
+        </section>
+                
+        <section class="header-2">
+          <div id="shimeji" class="shimeji"></div>
+
+          <article class="card">
+            <small class="dark-text" id="quote-source"><br></small>
+            <p id="quote"><span class="dark-text">Loading...</span></p>
+          </article>
+        </section>
+      </header>
+
+      <main class="ui-grid">
+        <!-- Sidebar -->
+        <aside class="side-nav-grid">
+          <!-- Website -->
+          <nav class="card">
+            <h4>Website</h4>
+
+            <button id="home" onclick="setCurrentNav('home')" class="card nav nav-select">
+              <img src="/images/nav-image/home.png" alt="Icon"> <span>Home</span>
+            </button>
+            <button id="website-news" onclick="setCurrentNav('website-news')" class="card nav">
+              <img src="/images/nav-image/website-news.png" alt="Icon"> <span>Website News</span>
+            </button>
+            <button id="affiliates" onclick="setCurrentNav('affiliates')" class="card nav">
+              <img src="/images/nav-image/affiliates.png" alt="Icon"> <span>Affiliates</span>
+            </button>
+            <hr>
+            <button id="credits-licenses" onclick="setCurrentNav('credits-licenses')" class="card nav">
+              <img src="/images/nav-image/credits-licenses.png" alt="Icon"> <span>Credits/Licenses</span>
+            </button>
+            <button id="contact-affiliate" onclick="setCurrentNav('contact-affiliate')" class="card nav">
+              <img src="/images/nav-image/contact-affiliate.png" alt="Icon"> <span>Contact/Affiliate</span>
+            </button>
+          </nav>
+
+          <!-- The Hoard -->
+          <nav class="card">
+            <h4>The Hoard</h4>
+            <!-- id="tjamgr" -->
+            <button id="team-taitatsu" onclick="setCurrentNav('team-taitatsu')" class="card nav">
+              <img src="/images/nav-image/team-taitatsu.png" alt="Icon"> <span>Team Taitatsu</span>
+            </button>
+            <button id="taiko-steam-group" onclick="setCurrentNav('taiko-steam-group')" class="card nav">
+              <img src="/images/nav-image/taiko-steam-group.png" alt="Icon"> <span>Taiko Steam Group</span>
+            </button>
+            <p class="dark-text center"><small>(More pages coming soon!)</small></p>
+            
+            <!-- 
+              <button id="music" onclick="setCurrentNav('music')" class="card nav">
+                <img src="/images/nav-image/music.png" alt="Icon"> <span>Music</span>
+              </button>
+              <button id="opentaiko-stuff" onclick="setCurrentNav('opentaiko-stuff')" class="card nav">
+                <img src="/images/nav-image/opentaiko-stuff.png" alt="Icon"> <span>OpenTaiko Stuff</span>
+              </button>
+              <button onclick="setCurrentNav('tjamgr')" class="card nav nav-disabled" disabled>
+                <img src="/images/nav-image/under-construction.png" alt="Under Construction!" class="nav-wip">
+                <img src="/images/nav-image/tjamgr.png" alt="Icon"> <span>TJA Manager</span>
+              </button>
+            -->
+          </nav>
+    
+          <!-- Socials -->
+          <nav class="card">
+            <h4>Socials</h4>
+
+            <button onclick="window.open('https://discord.gg/yG5BpE6eZH', '_blank');" title="https://discord.gg/yG5BpE6eZH" class="card nav">
+              <img src="/images/nav-image/discord-server.png" alt="Icon"> <span>Discord Server</span>
+            </button>
+            <button onclick="window.open('https://www.youtube.com/@BeaniCraft', '_blank');" title="https://www.youtube.com/@BeaniCraft" class="card nav">
+              <img src="/images/nav-image/youtube-channel.png" alt="Icon"> <span>YouTube Channel</span>
+            </button>
+            <button onclick="window.open('https://bsky.app/profile/beanicraft.bsky.social', '_blank');" title="https://bsky.app/profile/beanicraft.bsky.social" class="card nav">
+              <img src="/images/nav-image/bluesky-account.png" alt="Icon"> <span>Bluesky Account</span>
+            </button>
+          </nav>
+        </aside>
+
+        <!-- Main page content -->
+        <section class="page-grid">
+          <header class="card fit-content important-text">
+            <h1 id="page-header">Home</h1>
+          </header>
+
+          <article id="page-article" class="card">
+            <p class="dark-text">Loading...</p>
+          </article>
+
+          <footer class="card fit-content">
+            <p>BeaniCraft <span class="important-text">|</span> 2026 <span class="important-text">|</span> <a href="https://github.com/BeaniCraft/beanicraft.neocities.org" target="_blank">Source Code</a></p>
+          </footer>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>

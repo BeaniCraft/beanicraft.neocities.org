@@ -1,0 +1,263 @@
+/* Page body/fonts */
+@font-face {
+   font-family: MochiyPopOne;
+   src: url(fonts/MochiyPopOne-Regular.ttf);
+}
+
+@keyframes scroll-background {
+  0% {
+    background-position: 0px 0px; /* Starting position */
+  }
+  100% {
+    background-position: 120px 0px; /* Ending position (moves left) */
+  }
+}
+
+body {
+    background-image: url("/images/background-dark.png");
+    animation: scroll-background 4s linear infinite;
+    font-family: MochiyPopOne;
+    font-size: 12px;
+    color: white;
+    background-color: #131313;
+    margin-top: 75px;
+}
+/* ========= */
+
+
+/* Basic styling/classes */
+p, h1, h2, h3, h4, h5, h6, ol, li {margin: 0;}
+ol, li::marker {color: #00a5a5;}
+a {
+    color: #cd0000;
+    text-decoration: none;
+    cursor: pointer;
+}
+a:hover {
+    color: #ff2727;
+    text-decoration: underline;
+}
+
+summary:hover {text-decoration: underline;}
+
+.important-text {color: #00a5a5;}
+.text-error {color: #cd0000;}
+.dark-text {color: #8f8f8f;}
+
+hr {
+    border: 1px solid #00a5a5;
+    margin: 12px 0px;
+}
+
+code {
+    display: block;
+    padding: 8px;
+    margin: 8px;
+    background-color: #282828;
+    border: 2px solid #1d1d1d;
+    border-radius: 2px;
+}
+
+::selection {
+    background-color: #00a5a5;
+    color: #ffffff;
+}
+/* ========= */
+
+
+/* Core UI classes */
+.card {
+    background-color: #131313;
+    border: 2px solid #1d1d1d;
+    border-radius: 2px;
+    padding: 8px;
+    margin: 2px;
+}
+.card-light {
+    background-color: #282828;
+    border: 2px solid #1d1d1d;
+    border-radius: 2px;
+    padding: 8px;
+    margin: 2px;
+}
+
+.button {
+    display: block;
+    width: fit-content;
+    background-color: #131313;
+    border: 2px solid #1d1d1d;
+    padding: 8px;
+    color: #cd0000;
+}
+.button:hover {
+    background-color: #cd0000;
+    border-color: #8e0000;
+    color: #ffffff;
+    cursor: pointer;
+}
+.button:active {
+    background-color: #ff2727;
+    border-color: #cd0000;
+    color: #000000;
+}
+
+.fit-content {width: fit-content;}
+.no-wrap {white-space: nowrap;}
+
+.flex {
+    display: flex;
+    align-items: flex-end;
+    gap: 4px;
+}
+
+.img-overflow {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.left {text-align: left;}
+.right {text-align: right;}
+.center {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.margin-2px {margin: 2px;}
+.margin-4px {margin: 4px;}
+.margin-6px {margin: 6px;}
+.margin-8px {margin: 8px;}
+.margin-10px {margin: 10px;}
+.margin-y-2px {margin: 2px 0px 2px 0px;}
+.margin-y-4px {margin: 4px 0px 4px 0px;}
+.margin-y-6px {margin: 6px 0px 6px 0px;}
+.margin-y-8px {margin: 8px 0px 8px 0px;}
+.margin-y-10px {margin: 10px 0px 10px 0px;}
+/* ========= */
+
+
+/* UI grid */
+.header-grid {
+    width: 1000px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 170px 830px;
+}
+
+.ui-grid {
+    width: 1000px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 200px 800px;
+}
+
+.side-nav-grid {
+    margin: 0px auto auto;
+    display: grid;
+    grid-template-columns: 200px;
+}
+
+.page-grid {
+    margin: 0px auto auto;
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: 800px;
+}
+/* ========= */
+
+
+/* UI classes */
+.header-1 {
+    height: 105px;
+    align-self: end;
+}
+.header-2 {
+    height: fit-content;
+    width: fit-content;
+    min-width: 400px;
+    align-self: end;
+    z-index: 0;
+    position: relative;
+}
+
+.nav {
+    width: 172px;
+    padding: 4px;
+    gap: 4px;
+    position: relative;
+    display: flex;
+    color: #cd0000;
+    font-family: MochiyPopOne;
+    font-size: 12px;
+    align-items: center;
+    z-index: 0;
+}
+.nav-select {
+    background-color: #cd0000;
+    border-color: #8e0000;
+    color: #000000;
+}
+.nav:hover {
+    background-color: #cd0000;
+    border-color: #8e0000;
+    color: #ffffff;
+    cursor: pointer;
+}
+.nav:active {
+    background-color: #ff2727;
+    border-color: #cd0000;
+    color: #000000;
+}
+.nav-wip {
+    position: absolute;
+    z-index: 1;
+    margin-left: -6px;
+}
+.nav-disabled {pointer-events: none;}
+/* ========= */
+
+
+/* Misc classes */
+.logo {margin: 8px auto;}
+.shimeji {
+    z-index: 1;
+    position: absolute;
+    top: -129px;
+    left: -2px;
+}
+
+@keyframes shake {
+    0% {transform: translateX(0);}
+    10% {transform: translateX(1px) translateY(2px);}
+    20% {transform: translateY(-1px);}
+    30% {transform: translateX(2px) translateY(-1px);}
+    40% {transform: translateX(-1px) translateY(-1px);}
+    50% {transform: translateX(2px);}
+    60% {transform: translateX(-1px) translateY(1px);}
+    70% {transform: translateY(1px) translateY(1px);}
+    80% {transform: translateX(-2px);}
+    90% {transform: translateX(3px) translateY(-2px);}
+    100% {transform: translateX(-1px);}
+}
+
+.secret-text {font-family: serif;}
+
+.text-shake-1 {animation: shake 8s steps(1, end) infinite;}
+.text-shake-2 {
+    animation: shake 8s steps(1, end) infinite;
+    animation-delay: -2s;
+}
+.text-shake-3 {
+    animation: shake 8s steps(1, end) infinite;
+    animation-delay: -3s;
+}
+.text-shake-4 {
+    animation: shake 8s steps(1, end) infinite;
+    animation-delay: -4s;
+}
+.text-shake-5 {
+    animation: shake 8s steps(1, end) infinite;
+    animation-delay: -5s;
+}
+/* ========= */
