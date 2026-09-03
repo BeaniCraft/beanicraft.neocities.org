@@ -1,5 +1,5 @@
 <section class="fit-content flex no-wrap">
-    <h3 class="important-text">Latest News:</h3><p>[6/9/2026] <span class="important-text">Where have I been? (+ Website rework)</span></p>
+    <h3 class="important-text">Latest News:</h3><p>[9/2/2026] <span class="important-text">Important announcement about Team Taitatsu.</span></p>
 </section>
 <hr>
 <p>Hey, welcome to my website!</p>
