@@ -1,4 +1,18 @@
 <details class="card">
+    <summary>[9/2/2026] <span class="important-text">Important announcement about Team Taitatsu.</span></summary>
+    <article class="card-light">
+        <p>Hey, BeaniCraft here.</p>
+        <br>
+        <p>Last night, me along with the rest of Team Taitatsu was notified that <a href="https://www.youtube.com/@Dwawa53" target="_blank">@Dwawa53</a><br><small class="dark-text">(a close friend, plus a member of Team Taitatsu)</small> <b>had sadly passed away due to an allergic reaction.</b></p>
+        <p>Me and the rest of the team will need time to mourn, and recover from his passing.</p>
+        <br>
+        <p>We are wishing luck for his family, and miss him greatly.</p>
+        <br>
+        <p class="important-text">Fly high, <a href="https://www.youtube.com/@Dwawa53" target="_blank">@Dwawa53</a>.<br><b>Forever the greatest. o7</b></p>
+    </article>
+</details>
+
+<details class="card">
     <summary>[6/9/2026] <span class="important-text">Where have I been? (+ Website rework)</span></summary>
     <article class="card-light">
         <p>Well, it's been a hot minute since I started working on this website huh?</p>
@@ -18,20 +32,5 @@
         <p>I'm not sure what else to add to this post, so I'll cut it here.<br>See you soon!</p>
         <br>
         <small class="dark-text">(<span class="important-text">Note:</span> If you want to look at the old website, I've archived it on the <a href="https://web.archive.org/web/20251003070325/https://beanicraft.neocities.org/" target="_blank">Wayback Machine</a>.)</small>
-
-
-        
-        <!-- <p>Why did I do this? Well...</p>
-        <ol>
-            <li>To clean up the code</li>
-            <li>To fix accessibility issues</li>
-            <li>To add more functionality/content</li>
-        </ol>
-        <br>
-        <p>I hope that this will make the site easier to develop in the future.</p>
-        <br>
-        <p>That's all for this news post. See you soon!</p>
-        <br>
-        <small>(<span class="important-text">Note:</span> If you want to look at the old website, I've archived it on the <a href="https://web.archive.org/web/20251003070325/https://beanicraft.neocities.org/" target="_blank">Wayback Machine</a>.)</small> -->
     </article>
 </details>

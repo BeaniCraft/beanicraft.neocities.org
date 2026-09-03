@@ -15,7 +15,7 @@
         <br>
         <p class="important-text">The team is comprised of these members:</p>
         <ul>
-            <li>Dwawa53 <a href="https://www.youtube.com/@Dwawa53" target="_blank">(@Dwawa53)</a></li>
+            <li>Dwawa53 <a href="https://www.youtube.com/@Dwawa53" target="_blank">(@Dwawa53)</a> <span class="important-text">(Fly high man. o7)</span></li>
             <li>DynGMD <a href="https://www.youtube.com/@DynGMDOfficial"  target="_blank">(@DynGMDOfficial)</a></li>
             <li>TFD500 <a href="https://www.youtube.com/@TFD500Official"  target="_blank">(@TFD500Official)</a></li>
             <li>taikofan10 <a href="https://www.youtube.com/@FellowDonder"  target="_blank">(@FellowDonder)</a></li>
