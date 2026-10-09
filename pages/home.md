@@ -1,5 +1,5 @@
 <section class="fit-content flex no-wrap">
-    <h3 class="important-text">Latest News:</h3><p>[9/2/2026] <span class="important-text">Important announcement about Team Taitatsu.</span></p>
+    <h3 class="important-text">Latest News:</h3><p>[10/8/2026] <span class="important-text">Website update: "Music", and "OpenTaiko Stuff" tabs added!</span></p>
 </section>
 <hr>
 <p>Hey, welcome to my website!</p>

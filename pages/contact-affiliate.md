@@ -2,7 +2,7 @@
 <hr>
 <p>Currently, these are my main ways of contact:</p>
 <ul>
-    <li>My <a href="https://discord.gg/yG5BpE6eZH" target="_blank">Discord server</a></li>
+    <li>My <a href="https://discord.gg/yG5BpE6eZH" target="_blank">Discord server</a>.</li>
     <li>Sending me a dm on Discord. <small class="dark-text">(My tag is <span class="important-text">@beanicraft</span>)</small></li>
 </ul>
 <small class="dark-text">(<span class="important-text">Note:</span> I do plan to make a dedicated contact email at some point.)</small>

@@ -33,9 +33,7 @@ function setCurrentNav(nav) {
         
     navID.classList.add('nav-select');
 
-    if (oldNavValue === navValue) {
-        // Do nothing
-    } else {
+    if (oldNavValue != navValue) {
         oldNavID.classList.remove('nav-select');
         headerID.textContent = navID.textContent;
         tabTitleID.textContent = navID.textContent + "| Beani's Website";

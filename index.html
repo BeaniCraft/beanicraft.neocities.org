@@ -68,7 +68,12 @@
           <!-- The Hoard -->
           <nav class="card">
             <h4>The Hoard</h4>
-            <!-- id="tjamgr" -->
+            <button id="music" onclick="setCurrentNav('music')" class="card nav">
+              <img src="/images/nav-image/music.png" alt="Icon"> <span>Music</span>
+            </button>
+            <button id="opentaiko-stuff" onclick="setCurrentNav('opentaiko-stuff')" class="card nav">
+              <img src="/images/nav-image/opentaiko-stuff.png" alt="Icon"> <span>OpenTaiko Stuff</span>
+            </button>
             <button id="team-taitatsu" onclick="setCurrentNav('team-taitatsu')" class="card nav">
               <img src="/images/nav-image/team-taitatsu.png" alt="Icon"> <span>Team Taitatsu</span>
             </button>
@@ -76,14 +81,7 @@
               <img src="/images/nav-image/taiko-steam-group.png" alt="Icon"> <span>Taiko Steam Group</span>
             </button>
             <p class="dark-text center"><small>(More pages coming soon!)</small></p>
-            
             <!-- 
-              <button id="music" onclick="setCurrentNav('music')" class="card nav">
-                <img src="/images/nav-image/music.png" alt="Icon"> <span>Music</span>
-              </button>
-              <button id="opentaiko-stuff" onclick="setCurrentNav('opentaiko-stuff')" class="card nav">
-                <img src="/images/nav-image/opentaiko-stuff.png" alt="Icon"> <span>OpenTaiko Stuff</span>
-              </button>
               <button onclick="setCurrentNav('tjamgr')" class="card nav nav-disabled" disabled>
                 <img src="/images/nav-image/under-construction.png" alt="Under Construction!" class="nav-wip">
                 <img src="/images/nav-image/tjamgr.png" alt="Icon"> <span>TJA Manager</span>
@@ -101,7 +99,7 @@
             <button onclick="window.open('https://www.youtube.com/@BeaniCraft', '_blank');" title="https://www.youtube.com/@BeaniCraft" class="card nav">
               <img src="/images/nav-image/youtube-channel.png" alt="Icon"> <span>YouTube Channel</span>
             </button>
-            <button onclick="window.open('https://bsky.app/profile/beanicraft.bsky.social', '_blank');" title="https://bsky.app/profile/beanicraft.bsky.social" class="card nav">
+            <button onclick="window.open('https://bsky.app/profile/beanicraft.neocities.org', '_blank');" title="https://bsky.app/profile/beanicraft.bsky.social" class="card nav">
               <img src="/images/nav-image/bluesky-account.png" alt="Icon"> <span>Bluesky Account</span>
             </button>
           </nav>

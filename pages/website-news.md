@@ -1,4 +1,19 @@
 <details class="card">
+    <summary>[10/8/2026] <span class="important-text">Website update: "Music", and "OpenTaiko Stuff" tabs added!</span></summary>
+    <article class="card-light">
+        <p>After 3000 years, I've returned with a real update on this website!</p>
+        <br>
+        <p>Here's a list of what's been added/changed:</p>
+        <ul>
+            <li>The "Music" tab</li>
+            <li>The "OpenTaiko Stuff" tab</li>
+            <li>Some minor code changes</li>
+        </ul>
+        <p>Outside of that, there isn't much else to say about this update, so I'll leave it here.</p>
+    </article>
+</details>
+
+<details class="card">
     <summary>[9/2/2026] <span class="important-text">Important announcement about Team Taitatsu.</span></summary>
     <article class="card-light">
         <p>Hey, BeaniCraft here.</p>
