@@ -1,4 +1,4 @@
-<details class="card">
+<details class="card fit-content">
     <summary>[10/8/2026] <span class="important-text">Website update: "Music", and "OpenTaiko Stuff" tabs added!</span></summary>
     <article class="card-light">
         <p>After 3000 years, I've returned with a real update on this website!</p>
@@ -13,7 +13,7 @@
     </article>
 </details>
 
-<details class="card">
+<details class="card fit-content">
     <summary>[9/2/2026] <span class="important-text">Important announcement about Team Taitatsu.</span></summary>
     <article class="card-light">
         <p>Hey, BeaniCraft here.</p>
@@ -27,7 +27,7 @@
     </article>
 </details>
 
-<details class="card">
+<details class="card fit-content">
     <summary>[6/9/2026] <span class="important-text">Where have I been? (+ Website rework)</span></summary>
     <article class="card-light">
         <p>Well, it's been a hot minute since I started working on this website huh?</p>

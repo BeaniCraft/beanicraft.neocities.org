@@ -13,7 +13,7 @@
 <p>Copyright 2020 The Mochiypop Project Authors (<a href="https://github.com/fontdasu/Mochiypop" target="_blank">https://github.com/fontdasu/Mochiypop</a>)</p>
 <br>
 <p>This Font Software is licensed under the SIL Open Font License, Version 1.1.<br>This license is copied below, and is also available with a FAQ at: <a href="https://openfontlicense.org" target="_blank">https://openfontlicense.org</a></p>
-<details class="card margin-y-10px">
+<details class="card margin-y-10px fit-content">
     <summary><span class="important-text">SIL Open Font License, Version 1.1</span> - <small class="dark-text">(26 February 2007)</small></summary>
     <code class="fit-content">
       <h2 class="important-text">PREAMBLE</h2>

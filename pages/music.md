@@ -8,7 +8,7 @@
 <p class="dark-text">*One of my songs,「DISCARDED_DISRUPTION」<small>(OpTk Mix)</small>, doesn't have a YouTube video as of right now.</p>
 <hr>
 <p>In addition, I've provided a license below so you know what you can and can't do with my music.</p>
-<details class="card margin-y-10px">
+<details class="card margin-y-10px fit-content">
     <summary><span class="important-text">BeaniCraft Music License, 1.0</span> <small class="dark-text">(BCM-1.0 License)</small></summary>
     <code class="fit-content">
       <p>(<span class="important-text">NOTE:</span> This license applies <span class="important-text">EXCLUSIVELY</span> to my own music. <span class="text-error">NOT</span> my covers.)</p>
